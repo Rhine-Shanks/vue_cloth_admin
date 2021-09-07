@@ -1,0 +1,39 @@
+{
+  "name": "iot_display",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^2.6.5",
+    "dayjs": "^1.10.6",
+    "element-ui": "^2.15.3",
+    "excel-class": "^0.2.0",
+    "file-saver": "^2.0.5",
+    "match-sorter": "^6.3.0",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.10",
+    "vue-json-excel": "^0.3.0",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2",
+    "xlsx": "^0.15.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

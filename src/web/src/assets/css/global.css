@@ -1,0 +1,46 @@
+html, body, #app {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 1366px;
+}
+
+.el-card {
+    margin-top: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+.el-table {
+    margin-top: 10px;
+}
+
+.el-pagination {
+    margin-top: 10px;
+}
+
+.el-tree {
+    margin-top: 10px;
+}
+
+/* 去除element-ui中级联选择器的高度溢出 */
+.el-cascader-panel {
+    height: 280px;
+}
+  /* 去除element-ui中级联选择器的底部滚动条 */
+.el-scrollbar__wrap {
+    overflow-x: hidden;
+    height: 280px;
+}
+
+.el-upload, .el-upload-dragger {
+    width: 100% !important; 
+}
+
+.el-dialog__header {
+    background-color: #409eff;
+}
+
+.el-dialog__title {
+    color: #ffffff !important;
+}

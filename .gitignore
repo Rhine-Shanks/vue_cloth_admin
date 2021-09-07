@@ -1,0 +1,16 @@
+.vscode
+
+# production
+build
+
+# dependencies
+node_modules
+
+src/web/node_modules
+src/web/build
+
+#Log
+logs
+.log
+/Log
+Log
